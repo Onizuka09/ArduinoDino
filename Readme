@@ -1,0 +1,20 @@
+This project lets play the dino game by measuring the distance between your hand and the ultrasonic sensor.
+
+The project is separated into 2 sections: 
+1)Arduino code: 
+lets you measure the distance and if it is greater than a certain threshold (15 cm) a serial command is sent ( letter 'J')
+2)Python code: 
+Intercepts the serial buffer and stores it in a variable.
+if the serial buffer corresponds to the command ('J'), a keyboard command will be sent: space (' ').
+
+
+libraries needed: 
+pyserial : pip install pyserial 
+PyAutoGUI: pip install pyautogui
+Materials: 
+Any Arduino board 
+Ultrasonic sensor
+jumper wires 
+
+this is were you can find the game :
+http://trex-runner.com/
